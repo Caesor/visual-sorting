@@ -1,0 +1,11 @@
+/* common */
+body, canvas, section, ul, li, a{margin: 0; padding: 0;} 
+
+body{background: #333;}
+canvas{margin: 0 auto; display: block;}
+#control_bar{float: right;text-align: center;width: 150px;height: 400px;padding: 20px 0;}
+#control_bar ul{list-style: none; background: #eee;margin:10px 20px;}
+#control_bar ul li{padding: 5px 10px;cursor:pointer;border-bottom: 1px solid #ccc;}
+#control_bar ul li.selected{background-color:#818181;color: #fff; }
+#control_bar ul li:last-child{border:none;}
+#control_bar ul li:hover{background-color:#D5D5D5; color:#000;};
